@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "13455979048",
+    "project_id": "wallpaper-c035b",
+    "storage_bucket": "wallpaper-c035b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:13455979048:android:0ef94d91943fb34107fb1d",
+        "android_client_info": {
+          "package_name": "com.example.wallpaper_admin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGBg71UaEI3jhecgqfzQ-gL08aY_fJfOs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:13455979048:android:8797f1cac6722a5d07fb1d",
+        "android_client_info": {
+          "package_name": "com.example.wallpaperagain"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGBg71UaEI3jhecgqfzQ-gL08aY_fJfOs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
