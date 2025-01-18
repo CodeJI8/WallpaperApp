@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+        <!-- Toolbar Title Style -->
+        <style name="ToolbarTitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+            <item name="android:textColor">@android:color/white</item>
+            <item name="android:textSize">20sp</item>
+            <item name="android:fontFamily">@font/nunito</item> <!-- Custom font, optional -->
+            <item name="android:letterSpacing">0.02</item> <!-- Optional: adjust letter spacing -->
+        </style>
+
+        <!-- Toolbar Subtitle Style -->
+        <style name="ToolbarSubtitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
+            <item name="android:textColor">@android:color/white</item>
+            <item name="android:textSize">16sp</item>
+            <item name="android:fontFamily">@font/nunito</item> <!-- Custom font, optional -->
+        </style>
+
+
+    <style name="Tab" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">14sp</item> <!-- Adjust the text size -->
+        <item name="android:textStyle">bold</item> <!-- Optional: Make text bold -->
+    </style>
+
+
+</resources>

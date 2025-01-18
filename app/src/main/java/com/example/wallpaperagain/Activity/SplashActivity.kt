@@ -1,4 +1,4 @@
-package com.example.wallpaperagain
+package com.example.wallpaperagain.Activity
 
 import android.content.Intent
 import android.graphics.Color
@@ -6,9 +6,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import androidx.core.view.WindowInsetsControllerCompat
-import java.util.logging.Handler
+import com.example.wallpaperagain.MainActivity
+import com.example.wallpaperagain.R
 
-class splashActivity : AppCompatActivity() {
+class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         window.decorView.systemUiVisibility =

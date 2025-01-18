@@ -6,7 +6,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/white"
     android:gravity="center"
-    tools:context=".splashActivity"
+    tools:context=".Activity.splashActivity"
     android:orientation="vertical">
 
 <androidx.cardview.widget.CardView

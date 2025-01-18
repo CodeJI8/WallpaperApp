@@ -1,22 +1,16 @@
-package com.example.wallpaperagain
+package com.example.wallpaperagain.Activity
 
 import android.app.DownloadManager
 import android.app.WallpaperManager
-import android.content.pm.PackageManager
 import android.content.res.Resources
 import android.graphics.Bitmap
-import android.graphics.BitmapFactory
 import android.graphics.Color
-import android.graphics.drawable.Drawable
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Environment
-import android.transition.Transition
 import android.view.View
 import android.widget.Toast
-import androidx.core.app.ActivityCompat
-import androidx.core.content.ContextCompat
 import androidx.core.view.WindowInsetsControllerCompat
 import androidx.lifecycle.lifecycleScope
 import com.bumptech.glide.Glide
@@ -25,7 +19,6 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withContext
-import java.io.File
 
 class FinalWallpaper : AppCompatActivity() {
 

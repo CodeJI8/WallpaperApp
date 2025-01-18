@@ -3,13 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-   >
+    android:background="#1C1C1C"
+  >
 
-    <!-- Container View -->
-    <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/container_view"
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/mainRV"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/white" />
+        android:layout_height="match_parent"/>
 
 </FrameLayout>
